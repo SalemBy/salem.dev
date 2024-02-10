@@ -1,0 +1,50 @@
+main {
+    padding: 30px;
+}
+
+.wellcomingTitle {
+    font-size: 4rem;
+    line-height: 1;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.wellcomingText {
+    width: 60%;
+    height: 60vh;
+    max-width: 650px;
+    float: left;
+}
+
+.imagePlaceholder {
+    float: right;
+    width: 40%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+.imagePlaceholder > img {
+    width: 60vh;
+    height: 60vh;
+    border-radius: 50%;
+}
+
+.wellcomingText > p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    gap: 4;
+    font-size: 20px;
+}
+
+.contacts {
+    margin-top: 2px;
+    height: 7vh;
+}
+
+.contacts > a > img {
+    margin-left: 10px;
+    height: 6vh;
+    
+}
